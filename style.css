@@ -17,9 +17,6 @@ html {
 }
 
 span {
-  position: relative;
-  top: 100px;
-  
   font: italic bold 5em/1 Bodoni, serif;
   font-size: 16px;
   color: #555;
