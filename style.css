@@ -3,6 +3,7 @@ h1 {
   padding: 20px 0;    
   color: #CC0000;
   text-shadow: 3px 3px 1px black;
+  font-family: 'Ceviche One', cursive;
 }
 p, li {
   font-size: 16px;    
@@ -23,4 +24,8 @@ span {
   text-align: center;
   
   animation: fadeIn 1s infinite alternate;
+}
+.col {
+	width: calc(100% / 3);
+	padding: 0 10px;
 }
