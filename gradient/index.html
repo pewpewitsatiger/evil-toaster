@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Demo</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Gradient Position -->
+<section id="gradient-1">
+<h3>Gradient Start Position</h3>
+
+<div class="gradient top">
+	
+</div>
+
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(top, #ff5a00, #FFAE00);
+
+	/*Browser Syntax*/	
+	background-image: -webkit-linear-gradient(top, #ff5a00, #FFAE00);
+	background-image: -moz-linear-gradient(top, #ff5a00, #FFAE00);
+	background-image: -o-linear-gradient(top, #ff5a00, #FFAE00);
+	background-image: -ms-linear-gradient(top, #ff5a00, #FFAE00);	
+}
+</pre>
+<hr>
+<div class="gradient bottom">
+	
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(bottom, #ff5a00, #FFAE00);
+
+	/*Browser Syntax*/
+	background-image: -webkit-linear-gradient(bottom, #ff5a00, #FFAE00);
+	background-image: -moz-linear-gradient(bottom, #ff5a00, #FFAE00);
+	background-image: -o-linear-gradient(bottom, #ff5a00, #FFAE00);
+	background-image: -ms-linear-gradient(bottom, #ff5a00, #FFAE00);
+}	
+</pre>
+
+<hr>
+
+<div class="gradient left">
+
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(left, #ff5a00, #FFAE00);
+
+	/*Browser Syntax*/
+	background-image: -webkit-linear-gradient(left, #ff5a00, #FFAE00);
+	background-image: -moz-linear-gradient(left, #ff5a00, #FFAE00);
+	background-image: -o-linear-gradient(left, #ff5a00, #FFAE00);
+	background-image: -ms-linear-gradient(left, #ff5a00, #FFAE00);
+}
+</pre>
+
+<hr>
+
+<div class="gradient right">
+	
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(right, #ff5a00, #FFAE00);
+
+	/*Browser Syntax*/
+	background-image: -webkit-linear-gradient(right, #ff5a00, #FFAE00);
+	background-image: -moz-linear-gradient(right, #ff5a00, #FFAE00);
+	background-image: -o-linear-gradient(right, #ff5a00, #FFAE00);
+	background-image: -ms-linear-gradient(right, #ff5a00, #FFAE00);
+}
+</pre>
+</section>
+
+<section id="gradient-2">
+<h3>Diagonal Gradient</h3>
+
+<div class="gradient diagonal">
+
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(45deg, #ff5a00, #FFAE00);	
+
+	/*Browser Syntax*/
+	background-image: -webkit-linear-gradient(45deg, #ff5a00, #FFAE00);
+	background-image: -moz-linear-gradient(45deg, #ff5a00, #FFAE00);
+	background-image: -o-linear-gradient(45deg, #ff5a00, #FFAE00);
+	background-image: -ms-linear-gradient(45deg, #ff5a00, #FFAE00);
+}
+</pre>
+</section>
+
+<section id="gradient-3">
+<h3> Gradient Color Stop</h3>
+
+<div class="gradient color-stop">
+
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(top, #ff5a00 50%, #FFAE00 51%);
+
+	/*Browser Syntax*/
+	background-image: -webkit-linear-gradient(top, #ff5a00 50%, #FFAE00 51%);
+	background-image: -moz-linear-gradient(top, #ff5a00 50%, #FFAE00 51%);
+	background-image: -o-linear-gradient(top, #ff5a00 50%, #FFAE00 51%);
+	background-image: -ms-linear-gradient(top, #ff5a00 50%, #FFAE00 51%);	
+}
+</pre>
+</section>
+
+<section id="gradient-4">
+<h3>Transparent Gradient</h3>
+
+<div class="gradient transparent">
+
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	/*Official Syntax*/
+	background-image: linear-gradient(to bottom,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+
+	/*Browser Syntax*/
+	background-image: -moz-linear-gradient(top,  rgba(255,90,0,0.5) 0%, rgba(255,174,0,0.5) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+	background-image: -o-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+}
+</pre>
+</section>
+
+<section id="gradient-5">
+<h3>Mulitple Color Gradient</h3>
+
+<div class="gradient multi-colors">
+
+</div>
+<h4>Code</h4>
+<pre>
+div {
+	background-image: -webkit-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+	background-image: -moz-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+	background-image: -o-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+	background-image: -ms-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+	background-image: linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+}
+</pre>
+</section>
+</body>
+</html>

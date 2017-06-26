@@ -1,0 +1,79 @@
+html {
+	background: #f3f3f3;
+	height: 100%;
+}
+section {
+	width: 620px;
+	height: auto;
+	margin: 20px auto;
+	padding: 20px;
+}
+section div {
+	width: 610px;
+	height: 250px;
+	border: 5px solid #fff;
+	margin: 30px 0;
+}
+section:target {
+	background-color: #ccc;
+	border: 1px solid #aaa;
+}
+pre {
+	font-size: 10pt;
+}
+#gradient-1 div.top {
+	background-image: -webkit-linear-gradient(top, #FF1414, #0BB200);
+	background-image: -moz-linear-gradient(top, #FF1414, #0BB200);
+	background-image: -o-linear-gradient(top, #FF1414, #0BB200);
+	background-image: -ms-linear-gradient(top, #FF1414, #0BB200);
+	background-image: linear-gradient(top, #FF1414, #0BB200);	
+}
+#gradient-1 div.bottom {
+	background-image: -webkit-linear-gradient(bottom, #000AD1, #DEEA00);
+	background-image: -moz-linear-gradient(bottom, #000AD1, #DEEA00);
+	background-image: -o-linear-gradient(bottom, #000AD1, #DEEA00);
+	background-image: -ms-linear-gradient(bottom, #000AD1, #DEEA00);
+	background-image: linear-gradient(bottom, #000AD1, #DEEA00);	
+}
+#gradient-1 div.left {
+	background-image: -webkit-linear-gradient(left, #6F0197, #EA0000);
+	background-image: -moz-linear-gradient(left, #6F0197, #EA0000);
+	background-image: -o-linear-gradient(left, #6F0197, #EA0000);
+	background-image: -ms-linear-gradient(left, #6F0197, #EA0000);
+	background-image: linear-gradient(left, #6F0197, #EA0000);	
+}
+#gradient-1 div.right {
+	background-image: -webkit-linear-gradient(right, #14FF3B, #14EFFF);
+	background-image: -moz-linear-gradient(right, #14FF3B, #14EFFF);
+	background-image: -o-linear-gradient(right, #14FF3B, #14EFFF);
+	background-image: -ms-linear-gradient(right, #14FF3B, #14EFFF);
+	background-image: linear-gradient(right, #14FF3B, #14EFFF);	
+}
+#gradient-2 div.diagonal {
+	background-image: -webkit-linear-gradient(45deg, #000000, #FFFFFF);
+	background-image: -moz-linear-gradient(45deg, #000000, #FFFFFF);
+	background-image: -o-linear-gradient(45deg, #000000, #FFFFFF);
+	background-image: -ms-linear-gradient(45deg, #000000, #FFFFFF);
+	background-image: linear-gradient(45deg, #000000, #FFFFFF);	
+}
+#gradient-3 div.color-stop {
+	background-image: -webkit-linear-gradient(top, #FF00FF 75%, #F400C7 25%);
+	background-image: -moz-linear-gradient(top, #FF00FF 75%, #F400C7 25%);
+	background-image: -o-linear-gradient(top, #FF00FF 75%, #F400C7 25%);
+	background-image: -ms-linear-gradient(top, #FF00FF 75%, #F400C7 25%);
+	background-image: linear-gradient(top, #FF00FF 75%, #F400C7 25%);	
+}
+#gradient-4 div.transparent {
+	background-image: -moz-linear-gradient(top,  #000000 25%, #FFFFFF 75%);
+	background-image: -webkit-linear-gradient(top,  #000000 25%, #FFFFFF 75%);
+	background-image: -o-linear-gradient(top,  #000000 25%, #FFFFFF 75%);
+	background-image: -ms-linear-gradient(top,  #000000 25%, #FFFFFF 75%);
+	background-image: linear-gradient(to bottom,  #000000 25%, #FFFFFF 75%);
+}
+#gradient-5 div.multi-colors {
+	background-image: -webkit-linear-gradient(top, violet, indigo, blue, green, yellow, orange, red);
+	background-image: -moz-linear-gradient(top, violet, indigo, blue, green, yellow, orange, red);
+	background-image: -o-linear-gradient(top, violet, indigo, blue, green, yellow, orange, red);
+	background-image: -ms-linear-gradient(top, violet, indigo, blue, green, yellow, orange, red);
+	background-image: linear-gradient(top, violet, indigo, blue, green, yellow, orange, red);
+}
